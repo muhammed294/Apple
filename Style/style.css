@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    background: black;
+}
+.link-wrapper{
+    margin: 0px auto;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+li a{
+    font-size: clamp(0.7rem, 1vw, 1rem);
+    margin: 0 auto;
+    padding: 0 10px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.header-images{
+    width: 18px;
+    height: 18px;
+    padding: 5px 0px;
+}
+#section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+.models{
+    font-size: clamp(0.8rem, 1vw, 1rem);
+}
+.device-name{
+    font-size: clamp(2rem, 2vw, 2rem);
+    font-weight: bolder;
+}
+.device-detail-1{
+    font-size: clamp(1.5rem, 1vw, 1rem);
+}
+.device-detail-buttons button{
+    border: none;
+    background: none;
+}
+.device-detail-buttons a{
+    color: rgb(1, 106, 252);
+}
+.device-detail-buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.section-image{
+    width: min(100%, 800px);
+}
+.section-image img{
+    width: 100%;
+    height: auto;
+}
+.device-detail-2{
+    font-size: clamp(1rem, 1vw, 1rem);
+}
+.section-1-image{
+    max-width: 230px;
+    height: auto;
+}
+.section-2{
+    background: black;
+    color: white;
+}
+#section-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.section-2-container-3-background{
+    background-image: url("apple-tv-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: auto;
+    height: auto;
+}
+.section-2-image{
+    width: 100%;
+}
+.air-pods-image{
+    width: 200px;
+    height: 250px;
+}
+.section-2-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.white-background{
+    background-color: rgb(255, 253, 253);
+}
