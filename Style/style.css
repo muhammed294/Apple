@@ -1,89 +1,109 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
 }
-header{
+
+header {
     background: black;
 }
-.link-wrapper{
+
+.link-wrapper {
     margin: 0px auto;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     gap: 15px;
 }
-li a{
+
+li a {
     font-size: clamp(0.7rem, 1vw, 1rem);
     margin: 0 auto;
     padding: 0 10px;
     color: white;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.header-images{
+
+.header-images {
     width: 18px;
     height: 18px;
     padding: 5px 0px;
 }
-#section{
+
+#section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 15px 0;
 }
-.models{
+
+.models {
     font-size: clamp(0.8rem, 1vw, 1rem);
 }
-.device-name{
+
+.device-name {
     font-size: clamp(2rem, 2vw, 2rem);
     font-weight: bolder;
 }
-.device-detail-1{
+
+.device-detail-1 {
     font-size: clamp(1.5rem, 1vw, 1rem);
 }
-.device-detail-buttons button{
+
+.device-detail-buttons button {
     border: none;
     background: none;
 }
-.device-detail-buttons a{
+
+.device-detail-buttons a {
     color: rgb(1, 106, 252);
 }
-.device-detail-buttons{
+
+.device-detail-buttons {
     margin-top: 10px;
     display: flex;
     justify-content: center;
     gap: 10px;
 }
-.section-image{
+
+.section-image {
     width: min(100%, 800px);
 }
-.section-image img{
+
+.section-image img {
     width: 100%;
     height: auto;
 }
-.device-detail-2{
+
+.device-detail-2 {
     font-size: clamp(1rem, 1vw, 1rem);
 }
-.section-1-image{
+
+.section-1-image {
     max-width: 230px;
     height: auto;
 }
-.section-2{
+
+.section-2 {
     background: black;
     color: white;
 }
-#section-2{
+
+#section-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
-.section-2-container-3-background{
+
+.section-2-container-3-background {
     background-image: url("apple-tv-background.jpg");
     background-size: cover;
     background-position: center;
@@ -91,19 +111,92 @@ a{
     max-width: auto;
     height: auto;
 }
-.section-2-image{
+
+.section-2-image {
     width: 100%;
 }
-.air-pods-image{
+
+.air-pods-image {
     width: 200px;
     height: 250px;
 }
-.section-2-container{
+
+.section-2-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.white-background{
+
+.white-background {
     background-color: rgb(255, 253, 253);
+}
+
+footer {
+    width: 100%;
+}
+
+footer p {
+    color: #646464;
+}
+
+.footer-content-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.disclaimer-wrapper {
+    padding: 30px 0;
+    width: 70%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+}
+
+.links ul {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.links p {
+    margin-bottom: 3px;
+    font-weight: bold;
+    color: #343434;
+}
+
+.links a {
+    text-decoration: none;
+    color: #646464;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    color: #646464;
+}
+
+.copyright-wrapper {
+    padding: 20px 0;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-wrapper a {
+    text-decoration: none;
+    color: #646464;
+}
+
+.copyright-wrapper a:hover {
+    text-decoration: underline;
+    color: #646464;
+}
+
+.copyright-wrapper #last {
+    padding-left: 160px;
 }
